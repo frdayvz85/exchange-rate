@@ -1,7 +1,7 @@
 # Exchange rate
 🔆✅🔴**Live [exchangeratelive](https://exchangeratelive.netlify.app/)**
 
-##### Clone project :  `git clone https://github.com/facebook/`
+##### Clone project :  `https://github.com/frdayvz85/exchange-rate.git`
 
 In the project directory, you can run:
 
