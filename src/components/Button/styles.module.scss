@@ -1,0 +1,26 @@
+@import "../../global/styles/variables.module";
+
+.btn {
+  min-width: 120px;
+  height: 45px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background: $primary;
+  transition:280ms ease-in-out;
+  color: $white;
+  &:active,
+  &:hover,
+  &:not(:disabled) {
+    background-color: $primary;
+    color: $white;
+    cursor: pointer;
+  }
+  &:disabled {
+    background-color: lighten($primary, 18%);
+    cursor: not-allowed;
+  }
+}

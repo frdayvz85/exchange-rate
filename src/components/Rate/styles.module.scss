@@ -1,0 +1,19 @@
+@import '../../global/styles/variables.module';
+@import '../../global/styles/mixins.module';
+
+.container {
+  background: $white;
+  border-radius: 16px;
+  padding: 5px 12px;
+  margin-top: -14px;
+  border: 1px solid $color-orange;
+  color: $color-orange;
+  @include font(medium);
+}
+
+.icon {
+  height: 12px;
+  fill: $color-orange;
+  margin-right: 8px;
+}
+

@@ -1,0 +1,21 @@
+@import "../../global/styles/variables.module";
+
+.container {
+  position: relative;
+  min-width: 330px;
+  min-height: 460px;
+  border-radius: 20px;
+  width: 460px;
+  margin: 1rem auto;
+  background: white;
+  box-shadow: 0 4px 20px 2px rgb(0 0 0 / 40%);
+}
+
+$breakpoint-tablet: 420px;
+@media (max-width: $breakpoint-tablet) {
+  .container {
+    min-width: 95vw;
+    min-height: 460px;
+    width: 95vw;
+  }
+}

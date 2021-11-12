@@ -1,0 +1,101 @@
+@import '../../global/styles/variables.module';
+@import '../../global/styles/variables.module';
+@import '../../global/styles/mixins.module';
+
+.container {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 24px;
+  justify-content: center;
+  border-radius: 12px 12px 0 0;
+  &.destination {
+    background: #fff;
+    border-radius: 0;
+    border-top: 2px solid grey;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+//dev note: avoid !important here, but here its required to override the react free dropdown package
+.selectWrapper {
+  min-width: 90px !important;
+}
+
+.select {
+  // border: 0 !important;
+  font-size: 20px !important;
+  font-family: $poppins;
+  width: 120px !important;
+  color: $dark-grey !important;
+  padding: 7px 10px;
+  // border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  outline: none;
+  border-radius: 5px;
+}
+
+.grey {
+  background: $bg-light-grey !important;
+}
+
+.selectOption {
+  font-size: 16px !important;
+  font-family: $poppins;
+  background: $white;
+}
+
+.balance {
+  @include font(medium);
+  color: $color-teal;
+  margin: 8px 5px 0 0px;
+}
+.inputHeader {
+  flex: 1;
+}
+.input {
+  padding:13px 10px !important;
+  width:80%;
+  float: right;
+  box-sizing: border-box;
+  font-family: $poppins;
+  outline: none;
+  border-radius:5px;
+  border: 1px solid gray;
+
+  &::placeholder {
+    font-family: $poppins;
+    color: gray;
+  }
+}
+.exceeds {
+  color: $error;
+}
+.error {
+  color: $error;
+  font-family: $poppins;
+  margin-top:5px;
+}
+.errorInput {
+  border: 1px solid $error;
+  background-color:lighten($error, 40%)
+}
+.minus:before {
+  content: '-';
+  @include font(xLarge);
+}
+
+.plus:before {
+  content: '+';
+  @include font(xLarge);
+}
+.smallSize:before {
+  @include font(large);
+}
+.bigNumber {
+  @include font(large);
+}
