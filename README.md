@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 #### Used technologies:
 ##### `✅ React`  `✅ Redux` `✅ Scss` `✅ Custom hooks`  `✅ Api` `✅ React-router-dom`
 
-#### Api url: https://openexchangerates.org/api
+#### Api url: https://openexchangerates.org/
 #### Test result:
 ![image](https://user-images.githubusercontent.com/55210294/141382772-ee1ce1fd-4eac-4111-b2e8-fa550d0cf9cf.png)
 
